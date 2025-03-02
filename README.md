@@ -1,4 +1,4 @@
-# MicroAA-Mapper: A Novel Bioinformatics Pipeline for Identifying Amino Acid Sequences Targeted by miRNA in Breast Cancer
+# BRCA-Related Cancer and miRNA Interactions: A Novel Bioinformatics Pipeline for Identifying Amino Acid Sequences Targeted by miRNA in Breast Cancer
 This is a pipeline for identifying amino acid sequences targeted by miRNA in *BRCA* using TarBase data and Interaction Clusters for miRNA and mRNA Pairs in The Cancer Genome Atlas Network.
 
 ## Overview
