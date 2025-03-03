@@ -16,7 +16,7 @@ This is a pipeline for identifying amino acid sequences targeted by miRNA in *BR
 
 ## Usage
 ### Step 1: Supplementary files
-We used both the `Homo_sapiens_TarBase_v9.tsv.gz` file from TarBase and the *BRCA* section of Supplementary File 3 from "Identifying Interaction Clusters for MiRNA and MRNA Pairs in TCGA Network" which contained clustering results for 15 cancers, including breast cancer (*BRCA*). You can access these files in the References section.
+We used both the `Homo_sapiens_TarBase_v9.tsv.gz` file from TarBase and the *BRCA* section of Supplementary File 3 from "Identifying Interaction Clusters for MiRNA and MRNA Pairs in TCGA Network" which contained clustering results for 15 cancers, including breast cancer (*BRCA*). You can access these files in the **References** section.
 
 ### Step 1: Verify Clusters
 Using `Customized Script 1`, you can filter the interaction clusters by extracting experimentally verified genes that match in both files. This results in a file with this format/information:
@@ -27,11 +27,17 @@ Using `Customized Script 1`, you can filter the interaction clusters by extracti
 Using Excel, we filtered by tissue to include only breast tissue and used only the miRNA name, miRNA ID, and gene name from now on.
 
 ### Step 2: Search DIANA-MicroT Database
-Using `Customized Script 2`, we automatically searched each verified gene with its miRNA in DIANA-MicroT. The script uses selenium to automatically conduct the searches, which gathers conservation score, genome position, transcript position, gene id, and binding area information, **specifically for CDS**. The binding area on the webserver is in this format: 
+Using `Customized Script 2`, we automatically searched each verified gene with its miRNA in DIANA-MicroT. The script uses selenium to automatically conduct the searches, which gathers conservation score, genome position, transcript position, gene id, and binding area information, **specifically for CDS**. The input looks like this:
 <div align="center">
-<img src="https://github.com/user-attachments/assets/299fd653-4889-47a2-90c9-74349e6a1785" width=60%>
+<img src="https://github.com/user-attachments/assets/6ffdf333-e9b8-4831-953d-ddc538bc133a" width=60%>
 </div>
-The script annotates only the transcript portion with both the longest portion and the whole sequence.
+The binding area on the webserver is in this format: 
+<div align="center">
+<img src="https://github.com/user-attachments/assets/63b69ae9-1161-4c1a-9ca6-7478ef1e3643" width=60%>
+</div>
+
+*example input: hsa-mir-424 and LRP8*
+The script annotates the whole sequence and only the longest portion.
 
 *Note: Inputs that generate multiple results create new rows for each result.*
 
