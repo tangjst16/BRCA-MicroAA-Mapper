@@ -15,7 +15,7 @@ This is a pipeline for identifying amino acid sequences targeted by miRNA in *BR
 
 
 ## Usage
-### Step 1: Supplementary files
+### Step 0: Supplementary files
 We used both the `Homo_sapiens_TarBase_v9.tsv.gz` file from TarBase and the *BRCA* section of Supplementary File 3 from "Identifying Interaction Clusters for MiRNA and MRNA Pairs in TCGA Network" which contained clustering results for 15 cancers, including breast cancer (*BRCA*). You can access these files in the **References** section.
 
 ### Step 1: Verify Clusters
