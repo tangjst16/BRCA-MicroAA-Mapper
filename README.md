@@ -37,6 +37,7 @@ The binding area on the webserver is in this format:
 </div>
 
 *example input: hsa-mir-424 and LRP8*
+
 The script annotates the whole sequence and only the longest portion.
 
 *Note: Inputs that generate multiple results create new rows for each result.*
