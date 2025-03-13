@@ -2,6 +2,9 @@
 This is a pipeline for identifying amino acid sequences targeted by miRNA in *BRCA* using TarBase data and Interaction Clusters for miRNA and mRNA Pairs in The Cancer Genome Atlas Network.
 
 ## Overview
+<div align="center">
+<img src="https://github.com/user-attachments/assets/ceb2caa5-de5a-439b-a69a-7cbb1d70adc6" width=60%>
+</div>
 
 ## Requirements
 - python
