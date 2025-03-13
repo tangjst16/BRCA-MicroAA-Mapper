@@ -3,7 +3,7 @@ This is a pipeline for identifying amino acid sequences targeted by miRNA in *BR
 
 ## Overview
 <div align="center">
-<img src="https://github.com/user-attachments/assets/ceb2caa5-de5a-439b-a69a-7cbb1d70adc6" width=60%>
+<img src="https://github.com/user-attachments/assets/94022d91-4e36-4bae-93f0-f378a431ee3d" width=60%>
 </div>
 
 ## Requirements
