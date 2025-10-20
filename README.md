@@ -88,4 +88,4 @@ Please cite this paper if you use the software or any material in this repositor
 Alex Mi, Joyce Tang, Amy Xu, Kyle Yang, and Yongsheng Bai A Multi-omics Bioinformatics Pipeline Framework for Discovering Conserved MiRNA Regulatory Networks Across Human Cancers. Submitted.
 
 ## License
-This software is freely available for academic users. Usage for commercial purposes is not allowed. Please refer to the LICENSE page.
+This software is freely available for academic users. Usage for commercial purposes is not allowed. Please refer to the [LICENSE](https://github.com/tangjst16/BRCA-MicroAA-Mapper/blob/main/LICENSE.md) page.
