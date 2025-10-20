@@ -82,3 +82,6 @@ This process produces a spreadsheet containing miRNA and gene information for id
 - Perez, G., Barber, G. P., Benet-Pages, A., Casper, J., Clawson, H., Diekhans, M., Fischer, C., Gonzalez, J. N., Hinrichs, A. S., Lee, C. M., Nassar, L. R., Raney, B. J., Speir, M. L., van Baren, M. J., Vaske, C. J., Haussler, D., Kent, W. J., & Haeussler, M. (2025). The UCSC Genome Browser database: 2025 update. Nucleic acids research, 53(D1), D1243–D1249. https://doi.org/10.1093/nar/gkae974
 - Sethupathy, P., Corda, B., & Hatzigeorgiou, A. G. (2006). TarBase: A comprehensive database of experimentally supported animal microRNA targets. RNA (New York, N.Y.), 12(2), 192–197. https://doi.org/10.1261/rna.2239606
 - Varadi, M. et al. “AlphaFold Protein Structure Database: massively expanding the structural coverage of protein-sequence space with high-accuracy models.” Nucleic Acids Research, 50(D1), pages D439–D444 (2021). DOI: 10.1093/nar/gkab1061
+
+## License
+This software is freely available for academic users. Usage for commercial purposes is not allowed. Please refer to the LICENCE page.
