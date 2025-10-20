@@ -83,5 +83,9 @@ This process produces a spreadsheet containing miRNA and gene information for id
 - Sethupathy, P., Corda, B., & Hatzigeorgiou, A. G. (2006). TarBase: A comprehensive database of experimentally supported animal microRNA targets. RNA (New York, N.Y.), 12(2), 192–197. https://doi.org/10.1261/rna.2239606
 - Varadi, M. et al. “AlphaFold Protein Structure Database: massively expanding the structural coverage of protein-sequence space with high-accuracy models.” Nucleic Acids Research, 50(D1), pages D439–D444 (2021). DOI: 10.1093/nar/gkab1061
 
+## Authors
+Please cite this paper if you use the software or any material in this repository.
+Alex Mi, Joyce Tang, Amy Xu, Kyle Yang, and Yongsheng Bai A Multi-omics Bioinformatics Pipeline Framework for Discovering Conserved MiRNA Regulatory Networks Across Human Cancers. Submitted.
+
 ## License
-This software is freely available for academic users. Usage for commercial purposes is not allowed. Please refer to the LICENCE page.
+This software is freely available for academic users. Usage for commercial purposes is not allowed. Please refer to the LICENSE page.
